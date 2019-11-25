@@ -1,2 +1,4 @@
 # masters-capstone
 An Evaluation of Training Size Impact on Validation Accuracy for Optimized Convolutional Neural Networks
+
+Abstract. In this paper, we present an evaluation of training size impact on validation accuracy for an optimized Convolutional Neural Network (CNN). CNNs are currently the state-of-the-art architecture for object classification tasks. We used Amazon’s machine learning ecosystem to train and test 648 models to find the optimal hyperparameters with which to apply a CNN towards the Fashion-MNIST (Mixed National Institute of Standards and Technology) dataset. We were able to realize a validation accuracy of 90% by using only 40% of the original data. We found that hidden layers appear to have had zero impact on validation accuracy, whereas the neural density of the network and the chosen optimization function had the greatest impact.
